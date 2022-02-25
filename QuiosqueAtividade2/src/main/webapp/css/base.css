@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    background-color: #4A5FD9;
+    
+    font-size: 22px;
+    color: white;
+}
+
+.options a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+
+.options a:hover{
+    color:black;
+}
+
+.options nav{
+    font-weight: 500;
+}
+
+.options .selecionado{
+    background-color: #F2F2F2;
+    color: black;
+    padding: 0 10px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+/*-----------------------------------*/
+
+.content{
+    padding: 30px;
+    background-color: #F2F2F2;
+    height: 100vh !important;
+}

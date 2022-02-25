@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+.boxEstatisticas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxOnlyEst{
+    width: 80%;
+    background: #A7AED9;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+  
+td, th {
+    border: 2px solid #000000;
+    text-align: left;
+    padding: 10px;
+}

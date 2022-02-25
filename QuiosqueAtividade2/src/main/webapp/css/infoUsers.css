@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+
+.groupBox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.boxUser{
+    width: 80%;
+    background: #A7AED9;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.boxUser{
+	margin-top: 20px;
+}
+
+.boxUser .btnEnomeUser{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btnInfo{
+    padding: 7px 13px;
+    margin: 0 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+
+
+#btnAlterar{
+    background-color: #1C70AD;
+}
+
+#btnDeletar{
+    background-color: #FF0000
+}
+
+.allEstUser{
+
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.boxEstUser{
+    width: 20%;
+    background-color: #4A5FD9;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 30px;
+    color: white;
+}
